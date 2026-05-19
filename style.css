@@ -1,0 +1,72 @@
+body{
+    background-image: linear-gradient(to right, #db2929, #df7b5d); /*fundo do site de mais de uma cor, linear serve para fazer o degrade e o to right serve para mostrar a direção */
+    margin: 0; /*Serve para arrumar a margem do footer*/
+}
+
+.principal{
+    background-color: rgb(255, 255, 255); /*Fundo da div de uma unica cor*/
+    width: 600px; /*Largura da div*/
+    height: auto; /*Altura da div*/
+    margin-top: 50px; /*Margem de cima da div*/
+    border-radius: 10px; /*Serve para deixar a borda redonda*/
+    margin-left: 35%; /*Margem da esquerda da div, serve para centralizar a div*/
+    padding: 20px; /*Margem de dentro da div*/
+    padding-top: 1px; /*Margem de cima de dentro da div*/
+    box-sizing: border-box; /*Serve para não adicionar espaço na div*/
+}
+
+.titulo{
+    text-align: center; /*Serve para centralizar o texto na vertical*/
+    font-size: 30px; /*Serve para definir o tamanho da fonte*/
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif; /*Serve para definir a fonte*/
+    color: #000000; /*Define a cor da fonte*/
+    display: flex; /*liga a propriedade flex*/
+    justify-content: center; /*serve para centralizar os itens*/
+}
+
+.nome, .telefone, .pagamento, .lanche, .observacao{
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif; /*Serve para definir a fonte*/
+    font-size: 16px; /*Serve para definir o tamanho da fonte*/
+}
+
+.nome, .telefone, .pagamento, .lanche, .observacao{
+    border: solid gray 1px; /*Serve para definir a borda, solid é o tipo da borda, gray é a cor da borda e 1px é a largura da borda*/
+    width: 550px; /*Serve para definir a largura do campo de texto*/
+    height: 40px; /*Serve para definir a altura do campo de texto*/
+    border-radius: 5px; /*Serve para deixar a borda do campo de texto redonda*/
+    padding: 10px; /*Serve para definir a margem de dentro da div*/
+    box-sizing: border-box; /*Serve para não adicionar espaço na div*/
+    margin-top: 5px; /*Serve para definir a margem de cima do campo de texto*/
+}
+
+.botao{
+    border: solid rgb(129, 17, 17) 1px; /*Serve para definir a borda, solid é o tipo da borda, rgb é a cor da borda e 1px é a largura da borda*/
+    background-color: red; /*Serve para definir a cor de fundo do botão*/
+    color: white; /*Serve para definir a cor da fonte do botão*/
+    cursor: pointer; /*Serve para definir o cursor do mouse quando passar por cima do botão*/
+    width: 550px; /*Serve para definir a largura do botão*/
+    height: 35px; /*Serve para definir a altura do botão*/
+    border-radius: 5px; /*Serve para deixar a borda do botão redonda*/
+    font-size: 20px; /*Serve para definir o tamanho da fonte do botão*/
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif; /*Serve para definir a fonte do botão*/
+}
+
+.rodape{
+    text-align: center; /*Serve para centralizar o texto na vertical*/
+    font-size: 16px; /*Serve para definir o tamanho da fonte*/
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif; /*Serve para definir a fonte*/
+    color: #000000; /*Define a cor da fonte*/
+    margin-top: 300px; /*Serve para definir a margem de cima do rodapé, serve para afastar o rodapé do formulário*/
+    background-color: rgb(235, 85, 48); /*Serve para definir a cor de fundo do rodapé*/
+    height: 120px; /*Serve para definir a altura do rodapé*/
+    margin: 0; /*Serve para arrumar a margem do rodapé*/
+    display: flex; /*liga a propriedade flex*/
+    justify-content: center; /*serve para centralizar os itens*/
+    align-items: center; /*Serve para centralizar os itens na vertical*/
+;
+}
+
+footer{
+    margin-top: 150px; /*Serve para definir a margem de cima do rodapé, serve para afastar o rodapé do formulário*/
+
+}

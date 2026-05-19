@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Lanchonete + CSS" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete - Pedido</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="principal"> <!-- DIV PRINCIPAL -->
+        <h1 class="titulo">Faça seu pedido🍔</h1>
+
+        <form> <!-- FORMULÁRIO -->
+            <!-- NOME -->
+
+            <label for="nome" ><b>Nome:</b></label> <br>
+            <textarea class="nome" rows="1" cols="25" placeholder="Digite sue nome:"></textarea> <br><br>
+            <!-- TELEFONE -->
+
+            <label for="telefone"><b>Telefone:</b></label> <br>
+            <textarea class="telefone" rows="1" cols="25" placeholder="(11) 99999-9999"></textarea> <br><br>
+            <!-- LANCHE -->
+
+            <label for="lanche" ><b>Escolha seu lanche:</b></label> <br>
+            <select class="lanche" name="lanche">
+                <option value="selecione">Selecione seu lanche</option>
+                <option value="x-bacon">X-Bacon</option>
+                <option value="x-burger">X-Burger</option>
+                <option value="x-salada">X-Salada</option>
+                <option value="x-tudo">X-Tudo</option>
+            </select>
+            <!-- EXTRAS -->
+            
+            <p><b>Extras: </b></p>
+            <input type="checkbox" class="bacon"> Bacon <br>
+            <input type="checkbox" class="Queijo Extra"> Queijo Extra <br>
+            <input type="checkbox" class="Ovo"> Ovo <br>
+            <br>
+            <!-- OBSERVAÇÕES -->
+            <label for="observacao"><b>Observações:</b></label> <br>
+            <textarea class="observacao" rows="4" cols="25" placeholder="Ex: Sem cebola..."></textarea>
+            <br><br>
+            <!-- PAGAMENTO -->
+            <label for="pagamento"><b>Forma de Pagamento:</b></label> <br>
+            <select class="pagamento" name="pagamento">
+                <option value="Selecione">Selecione a forma de pagamento</option>
+                <option value="Dinheiro">Dinheiro</option>
+                <option value="Credito">Cartão de Crédito</option>
+                <option value="Debito">Cartão de Débito</option>
+                <option value="Pix">Pix</option>
+            </select>
+
+            <br><br>
+            <!-- BOTÃO -->
+            <input type="submit" class="botao" value= "Enviar Pedido">
+        </form>
+
+    </div>
+    <footer>
+        <p class="rodape">&copy; 2026 Lanchonete do Zé. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
